@@ -1,0 +1,113 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-size: 18px;
+    font-family: outfit;
+}
+
+body {
+    background: hsl(217, 54%, 11%);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card {
+    width: 375px;
+    padding: 25px;
+    background: hsl(216, 50%, 16%);
+    border-radius: 10px;
+}
+
+.card-header {
+    width: auto;
+    height: 325px;
+    background: url(images/image-equilibrium.jpg) ;    
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-header img {
+    visibility: hidden;
+    border-radius: 10px;
+    padding: 135px 138px 145px 139px;
+    background-color: rgba(0, 255, 255, 0.322);
+    background-size:cover ;
+
+}
+
+.name {
+    color: white;
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+
+.hash {
+    font-size: 1.3rem;
+}
+
+.detail {
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+}
+
+.prix-container {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 1px hsl(228, 12%, 48%);
+}
+
+.prix-container p {
+    display: flex ;
+    align-items: center;
+}
+
+.prix {
+    color: aqua;
+    display: flex;
+}
+
+.temps {
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+    display: flex;
+    
+}
+
+.tkt {
+    color: hsl(215, 51%, 70%);
+    display: flex;
+    align-items: center;
+}
+
+.nom {
+    color: white;
+}
+
+.tkt img {
+    border: solid 1px white;
+    border-radius: 50%;
+}
+
+.card-header:hover img {
+    cursor: pointer;
+    visibility: visible;
+    transition: 1s;
+}
+
+
+
+.hash:hover, .nom:hover {
+    color: aqua;
+    cursor: pointer;
+    transition: 1s;
+
+}
